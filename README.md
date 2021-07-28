@@ -5,4 +5,4 @@ A\* pathfinding visualization by pygame.
 
 add diagonal path!
 
-![complete image](https://github.com/lazyduo/algorithm-a-star//image/complete.png)
+![complete image](https://github.com/lazyduo/algorithm-a-star/blob/main/image/complete.png)
