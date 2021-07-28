@@ -5,4 +5,16 @@ A\* pathfinding visualization by pygame.
 
 add diagonal path!
 
+but it has some problems.. by heursistic logic TT..
+
+## how to start
+
+click start and end, then drag to make barrier
+
+![start image](images/start.png)
+
+## run
+
+"spacebar" will make it run!
+
 ![complete image](images/complete.png)
