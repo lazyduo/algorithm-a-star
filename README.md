@@ -7,6 +7,8 @@ add diagonal path!
 
 but it has some problems.. by heursistic logic TT..
 
+current Heuristic : Manhattan distance
+
 ## how to start
 
 click start and end, then drag to make barrier

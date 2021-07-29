@@ -74,17 +74,9 @@ class Spot:
         self.neighbors = []
         if self.row < self.total_rows - 1 and not grid[self.row + 1][self.col].is_barrier(): # DOWN
             self.neighbors.append(grid[self.row + 1][self.col])
-            if self.col < self.total_rows - 1 and not grid[self.row + 1][self.col + 1].is_barrier(): # DOWN_RIGHT
-                self.neighbors.append(grid[self.row + 1][self.col + 1])
-            if self.col > 0 and not grid[self.row + 1][self.col - 1].is_barrier(): # DOWN_LEFT
-                self.neighbors.append(grid[self.row + 1][self.col - 1])
 
         if self.row > 0 and not grid[self.row - 1][self.col].is_barrier(): # UP
             self.neighbors.append(grid[self.row - 1][self.col])
-            if self.col < self.total_rows - 1 and not grid[self.row - 1][self.col + 1].is_barrier(): # UP_RIGHT
-                self.neighbors.append(grid[self.row - 1][self.col + 1])
-            if self.col > 0 and not grid[self.row - 1][self.col - 1].is_barrier(): # UP_LEFT
-                self.neighbors.append(grid[self.row - 1][self.col - 1])
 
         if self.col < self.total_rows - 1 and not grid[self.row][self.col + 1].is_barrier(): # RIGHT
             self.neighbors.append(grid[self.row][self.col + 1])
